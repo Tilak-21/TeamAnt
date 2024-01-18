@@ -1,0 +1,82 @@
+html {
+  height: 100%;
+  width: 100%;
+
+}
+
+label {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+section {
+  text-align: center;
+  align-items: center;
+  display: block;
+  /* margin: 0 0 0 0; */
+  margin:auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #c5212e;
+  width: 40%;
+  color: white
+
+}
+
+
+
+.submitbutton {
+  border: 1px solid black;
+border-radius: 25px;
+background: #008CBA;
+font-size: 20px;
+color: red;
+align-items:center;
+display: inline-block;
+font-weight:800;
+
+height: 50px;
+width: 150px;
+font: bold15px arial,sans-serif;
+text-shadow: none;
+}
+
+#heading {
+  font-size: 60px;
+  font-family: 'Segoe Print', 'Impact', sans-serif;
+  
+  font-weight: 800;
+  text-align: center;
+  color: white;
+}
+
+
+form {   
+  background-image: url("pizza1.png");   
+  background-repeat: no-repeat;   
+  background-attachment: fixed; 
+  background-size: cover;
+  
+}
+
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: orange;
+}
+
+.input-control .error {
+    color: orange;
+    font-size: 15px;
+    height: 18px;
+}
